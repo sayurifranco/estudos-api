@@ -1,0 +1,16 @@
+{
+  "name": "mod4-week-1",
+  "version": "1.0.0",
+  "description": "Seguem aqui os comandos básicos relacionados aos métodos de requisições HTTP:",
+  "main": "mod4-week-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json": "^11.0.0",
+    "server": "^1.0.38"
+  }
+}
