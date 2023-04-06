@@ -1,0 +1,14 @@
+<produtos>
+    <produto id=1>
+        <nome> Calça </nome>
+        <preço> 55 </preço>
+    </produto>
+    <produto id=2>
+        <nome> Sobretudo </nome>
+        <preço> 355 </preço>
+    </produto>
+    <produto id=55>
+        <nome> Camisa Social EDITADA </nome>
+        <preço> 2000 </preço>
+    </produto>
+</produtos>
