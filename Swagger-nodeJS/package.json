@@ -1,0 +1,18 @@
+{
+  "name": "swagger-nodejs",
+  "version": "1.0.0",
+  "description": "Criando uma documentação com SWAGGER para projetos NodeJS\r Tutorial para gerar automaticamente API docs",
+  "main": "apps.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Leticia Franco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2"
+  }
+}
+
