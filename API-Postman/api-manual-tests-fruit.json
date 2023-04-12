@@ -1,0 +1,40 @@
+{
+    "description": {
+        "swagger": "/shop/swagger",
+        "swagger-ui": "/shop/docs"
+    },
+    "links": {
+        "products_url": "/shop/products/",
+        "vendors_url": "/shop/vendors/",
+        "categories_url": "/shop/categories/",
+        "customers_url": "/shop/customers/",
+        "orders_url": "/shop/orders/"
+    }
+}
+
+// GET --> https://api.predic8.de/shop/categories/ --> SEND
+
+{
+    "categories": [
+        {
+            "name": "Fruits",
+            "category_url": "/shop/categories/Fruits"
+        },
+        {
+            "name": "Dried",
+            "category_url": "/shop/categories/Dried"
+        },
+        {
+            "name": "Fresh",
+            "category_url": "/shop/categories/Fresh"
+        },
+        {
+            "name": "Exotic",
+            "category_url": "/shop/categories/Exotic"
+        },
+        {
+            "name": "Nuts",
+            "category_url": "/shop/categories/Nuts"
+        }
+    ]
+}
