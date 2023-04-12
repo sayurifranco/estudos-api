@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "02443098-1d50-4238-bc40-4bef078aed40",
+		"name": "Testes_week_3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26761093"
+	},
+	"item": [
+		{
+			"name": "Consulta_fruitShop",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{int}}/categories/",
+					"host": [
+						"{{int}}"
+					],
+					"path": [
+						"categories",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "teste1_200",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{int}}/categories/",
+					"host": [
+						"{{int}}"
+					],
+					"path": [
+						"categories",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta_fruitShop_fresh",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{int}}/categories/Fresh",
+					"host": [
+						"{{int}}"
+					],
+					"path": [
+						"categories",
+						"Fresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta_customer1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{int}}/customers/1",
+					"host": [
+						"{{int}}"
+					],
+					"path": [
+						"customers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta_customer2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{int}}/customers/2",
+					"host": [
+						"{{int}}"
+					],
+					"path": [
+						"customers",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta_customer373",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{int}}/customers/373",
+					"host": [
+						"{{int}}"
+					],
+					"path": [
+						"customers",
+						"373"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizacao_customer1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"Joe\",\r\n    \"lastname\": \"Newman2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{int}}/customers/1",
+					"host": [
+						"{{int}}"
+					],
+					"path": [
+						"customers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
