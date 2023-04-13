@@ -1,0 +1,35 @@
+{
+  "name": "newman-docker",
+  "version": "3.9.2",
+  "description": "This repository contains the Dockerfiles and tests for the Newman Docker images.",
+  "scripts": {
+    "update": "./scripts/update/update.sh",
+    "docker-build": "./scripts/docker/docker-build.sh",
+    "docker-test": "./scripts/docker/docker-test.sh",
+    "test": "./scripts/test/test.sh",
+    "test-docker": "./scripts/test/test-docker.sh",
+    "test-infra": "./scripts/test/test-infra.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postmanlabs/newman-docker.git"
+  },
+  "keywords": [
+    "postman",
+    "newman",
+    "docker",
+    "image"
+  ],
+  "author": "Postman Labs <help@getpostman.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/postmanlabs/newman-docker/issues"
+  },
+  "homepage": "https://github.com/postmanlabs/newman-docker#readme",
+  "devDependencies": {
+    "dockerfile_lint": "0.0.8",
+    "dockerode": "2.2.2",
+    "expect.js": "0.3.1",
+    "mocha": "2.2.5"
+  }
+}
