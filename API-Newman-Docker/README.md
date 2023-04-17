@@ -137,6 +137,5 @@ function onExit {
 trap onExit EXIT;
 
 docker run -t postman/newman_ubuntu1404 run "https://www.getpostman.com/collections/8a0c9bc08f062d12dcda" --suppress-exit-code;
-```
 
 [![Analytics](https://ga-beacon.appspot.com/UA-43979731-9/newman-docker/readme)](https://www.getpostman.com)
