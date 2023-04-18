@@ -47,8 +47,8 @@
 
 // Como exemplo, podemos citar:
 
-// Postman
-// Newnam
+// Postman - visto no curso
+// Newnam - visto no curso
 // Apache Jmeter
 // SoapUI
 // Rest Assured
